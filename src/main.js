@@ -1,3 +1,4 @@
+import "./index.css";
 import Swiper from "swiper";
 import { Mousewheel } from "swiper/modules";
 
