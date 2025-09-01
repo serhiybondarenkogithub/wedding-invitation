@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Wedding Invite//UA
+BEGIN:VEVENT
+UID:wedding-20250918@example.com
+DTSTAMP:20250918T100000Z
+DTSTART:20250918T100000Z
+DTEND:20250918T210000Z
+SUMMARY:Весілля Сергія та Христі
+DESCRIPTION:Запрошуємо Вас на наше весілля!
+LOCATION:Готельний комплекс "Петровський Бровар"
+END:VEVENT
+END:VCALENDAR
