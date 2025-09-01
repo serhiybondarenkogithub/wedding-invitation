@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --font-nice: "GreatVibes", cursive;
+  --font-main: "Open Sans", sans-serif;
+  --font-heading: "Poiret One", sans-serif;
+}
+
+@layer utilities {
+  @keyframes fade {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes heartbeat {
+    0%,
+    20%,
+    80%,
+    100% {
+      scale: 1;
+    }
+    40% {
+      scale: 1.1;
+    }
+    50% {
+      scale: 1;
+    }
+    60% {
+      scale: 1.1;
+    }
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: GreatVibes;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/great-vibes-regular.woff2") format("woff2"),
+      url("./fonts/great-vibes-regular.woff") format("woff"),
+      url("./fonts/great-vibes-regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/OpenSans-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("./fonts/OpenSans-Light.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: Poiret One;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/poiret-one-regular.woff2") format("woff2"),
+      url("./fonts/poiret-one-regular.woff") format("woff"),
+      url("./fonts/poiret-one-regular.ttf") format("truetype");
+  }
+}
