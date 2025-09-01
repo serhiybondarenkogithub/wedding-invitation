@@ -3,8 +3,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   base: "/wedding-invitation/",
-  build: {
-    outDir: "docs",
-  },
   plugins: [tailwindcss()],
 });
